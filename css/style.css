@@ -1,0 +1,83 @@
+body
+{
+	margin: 0px;
+	padding: 64px 0px 0px 0px;
+	background-image: url('../img/stripe.png');
+}
+
+section
+{
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	min-height: 32px;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	margin-top: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#content
+{
+	width: 768px;
+	margin: 0px auto;
+	background: white;
+	padding: 12px;
+	-webkit-box-shadow: inset 0 0 15px #CCC,inset 0 0 1px #666,0 0 1px #CCC;
+	box-shadow: inset 0 0 15px #CCC,inset 0 0 1px #666,0 0 1px #CCC;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-size: 14px;
+}
+
+.input-container
+{
+	position: relative;
+	left: 2.5%;
+	width: 95%;
+}
+
+#input
+{
+	width: 100%;
+	line-height: 20px;
+    border: 2px solid #CCC;
+    border-radius:4px;
+    margin-top: 6px;
+    padding: 0px 6px 0px 6px;
+}
+
+#input:focus
+{
+	outline:none;
+    border: 2px solid #4676a7;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #4676a7;
+}
+
+.section-title
+{
+	color: #555;
+	margin: 2px 8px;
+}
+
+.section-text
+{
+	color: #555;
+	margin: 4px 8px;
+	font-family: 'Lucida Console', Monaco, monospace;
+}
+
+#input-button
+{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background-image: url('../img/button.png');
+	right: 4px;
+	top: 10px;
+
+}
